@@ -1,17 +1,17 @@
 {
-  "name": "storybook-addon-kit",
+  "name": "storybook-addon-cms-preview",
   "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "description": "Use stories as live previews in a CMS editor. Contentful so far",
   "keywords": [
-    "storybook-addons"
+    "cms", "storybook-addon", "contentful", "preview", "storybook-addons"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "zetlen/storybook-addon-cms-preview"
   },
   "type": "module",
   "license": "MIT",
-  "author": "package-author",
+  "author": "zetlen <zetlen@gmail.com>",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -34,7 +34,6 @@
     "*.d.ts"
   ],
   "scripts": {
-    "postinstall": "node scripts/welcome.js",
     "build": "tsup",
     "build:watch": "npm run build -- --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -98,9 +97,9 @@
     ]
   },
   "storybook": {
-    "displayName": "Addon Kit",
+    "displayName": "CMS Embedded preview",
     "supportedFrameworks": [
-      "supported-frameworks"
+      "web-components"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   }
