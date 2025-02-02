@@ -3,7 +3,11 @@
   "version": "0.0.0",
   "description": "Use stories as live previews in a CMS editor. Contentful so far",
   "keywords": [
-    "cms", "storybook-addon", "contentful", "preview", "storybook-addons"
+    "cms",
+    "storybook-addon",
+    "contentful",
+    "preview",
+    "storybook-addons"
   ],
   "repository": {
     "type": "git",
@@ -102,5 +106,6 @@
       "web-components"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
-  }
+  },
+  "packageManager": "pnpm@9.15.2+sha512.93e57b0126f0df74ce6bff29680394c0ba54ec47246b9cf321f0121d8d9bb03f750a705f24edc3c1180853afd7c2c3b94196d0a3d53d3e069d9e2793ef11f321"
 }
